@@ -1,0 +1,61 @@
+main{
+    border: solid 1px black;
+
+
+}
+
+.principal{
+    border: solid 1px black;
+    width: 1280px;
+  margin: auto;
+   
+}
+    
+
+
+.content{
+    border: solid 1px black;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+
+}
+
+.frases-conteudo{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 900px;
+  text-align: center;
+  min-height: 400px;
+  padding: 0 25px;
+  color: gray;
+  border-radius: 10px;
+  background-color: #F4EDEA;
+  border: 10px solid #dfc900;
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.9);
+}
+
+.frases-conteudo p {
+    font-size: 1.5rem;
+  color: black;
+}
+
+.frases-conteudo h3 {
+    font-size: 2rem;
+    color: black;
+    font-family: 'Dancing Script', cursive;
+  }
+
+
+
+.frases-bnt{
+   display: flex;
+   justify-content: center;
+align-items: center;
+padding-top: 25px;
+}
+    
